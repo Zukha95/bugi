@@ -1,0 +1,140 @@
+@media(max-width: 1200px){
+    .product .container{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .product__left{
+        max-width: 700px;
+        width: 100%;
+    }
+    .left_pic{
+        max-width: 670px;
+        width: 100%;
+    }
+    .product__right{
+        max-width: 700px;
+        width: 100%;
+    }
+    .product__right-item{
+        max-width: 335px;
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 992px){
+    .nav .container{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding-top: 20px;
+    }
+    .footer .container{
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: space-around;
+    }
+}
+
+@media(max-width: 768px){
+    .product__left{
+        max-width: 540px;
+        width: 100%;
+    }
+    .product__right{
+        max-width: 540px;
+        width: 100%;
+    }
+    .product__right-item{
+        max-width: 255px;
+        width: 100%;
+    }
+    .header__list{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;    
+    }
+    .header__link{
+        padding: 20px 20px;
+    }
+}
+
+@media(max-width: 576px){
+    .header__link{
+        padding: 19px 19px;
+        font-size: 15px;
+    }
+    .product__left{
+        max-width: 400px;
+        width: 100%;
+    }
+    .product__right{
+        max-width: 400px;
+        justify-content: center;
+    }
+    .product__right-item{
+        max-width: 185px;
+        width: 100%;
+    }
+    .header__link{
+        padding: 12px 15px;
+        width: 100%;
+    }
+    .socials{
+        padding-right: 35px;
+    }
+    .product .container{
+        gap: 20px;
+    }
+    .product__right{
+        gap: 20px;
+    }
+    .product__left-title{
+        font-size: 20px;
+    }
+    .product__left-text{
+        font-size: 14px;
+    }
+    .product__right-title{
+        font-size: 18px;
+    }
+    .product__right-text{
+        font-size: 14px;
+    }
+    .header__intro{
+        min-height: 500px;
+    }
+    .nav .container{
+        gap: 15px;
+    }
+}
+@media(max-width: 419px){
+    .product__right-item{
+        max-width: 255px;
+        width: 100%;
+    }
+    .product__left{
+        max-width: 255px;
+        width: 100%;
+    }
+    .product__right-title{
+        font-size: 20px;
+    }
+    .product__right-text{
+        font-size: 15px;
+    }
+    .header__intro{
+        min-height: 400px;
+    }
+    .header__link{
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .header__list{
+        column-gap: 10px;   
+    }
+    .nav .container{
+        gap: 10px;
+    }
+}
